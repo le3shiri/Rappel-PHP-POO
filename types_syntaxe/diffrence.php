@@ -28,3 +28,18 @@ echo "<br>";
  * 
  * 
  */
+
+ /*
+ * Definition dial Union Types:
+ * [!]  Union types kat-khli variable wlla parameter y-kun mn akther mn type wahed (mthlan string|int)
+ * - Union types jao m3a PHP 8.0, kat-khlik t-definiw an shi variable, parameter, wlla return value y-kun mn types mkhltfa
+ * - Mthlan: function test(string|int $value): string|bool {...} kateama an $value y-kun string wlla int, w l-return y-kun string wlla bool
+ * - Kan-st3mluha bash n-dir code flexible w m3a strict typing n-garantiw type safety
+ * - Syntax: Kan-ktbo types m-freqa b pipe | (mthlan string|int|float)
+ * Exemple:
+ * function getId(string|int $id): string|int {
+ *     return $id;
+ * }
+ * $result = getId('abc'); // string
+ * $result = getId(123);   // int
+ */
