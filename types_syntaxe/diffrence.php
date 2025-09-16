@@ -9,13 +9,13 @@ $row = [
 echo $row['views'] ?? 'default'; // Ghadi y-printi '0'
 echo "\n";
 echo $row['excerpt'] ?? 'default'; // Ghadi y-printi ''
-echo "<br>";
+echo "\n";
 
 // Test b ?:
 echo $row['views'] ?: 'default'; // Ghadi y-printi 'default' hita '0' falsy
-echo "<br>";
+echo "\n";
 echo $row['excerpt'] ?: 'default'; // Ghadi y-printi 'default' hita '' falsy
-echo "<br>";
+echo "\n";
 
 
 /*
