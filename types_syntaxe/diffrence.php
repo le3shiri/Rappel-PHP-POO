@@ -26,4 +26,5 @@ echo "<br>";
  * | ??       | Null wlla undefined | Ila l-value null wlla l-key ma-kaynsh         | $row['views'] ?? 0 → y-rja3 0 ila views null wlla m-f9ud |
  * | ?:       | Truthy/Falsy        | Ila l-value falsy (null, 0, '', false, etc.)   | $row['views'] ?: 0 → y-rja3 0 ila views falsy (7ta lo kan 0) |
  * 
+ * 
  */
