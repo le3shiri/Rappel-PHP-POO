@@ -96,5 +96,5 @@ $testCases = [
 foreach ($testCases as $index => $case) {
     echo "Test Case " . ($index + 1) . ":\n"; // Kan-printiw number dial l-case
     print_r(buildArticle($case));             // Kan-printiw l-output dial l-function
-    echo "\n";                                // Line khawi bash l-output y-kun clear
+    echo "\n";                                
 }
