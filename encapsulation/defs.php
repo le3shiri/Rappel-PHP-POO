@@ -192,3 +192,10 @@ echo $a->slug() . PHP_EOL; // l-hedef: ntb3o l-slug dial $a (encapsulation-visib
 echo $b->slug() . PHP_EOL; // l-hedef: ntb3o l-slug dial $b (featured-lire-moins-comprendre-plus)
 // Satr 44: nshriw 3dd l-articles li tnshew
 echo Article::count() . PHP_EOL; // l-hedef: ntb3o 3dd l-articles (2)
+
+
+
+
+// Encapsulation katkhbbi l-bayanat l-dakhiliya d l-klas (zay private properties)
+//  w katsm7 b l-wsol liyha ghi 3bra getters w setters m3 validation.
+//  L-hedef huwa n7miw l-bayanat mn t-tbdil ghyr l-mrghub w nkhliwu l-code anf w m
