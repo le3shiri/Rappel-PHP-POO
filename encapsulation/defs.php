@@ -5,6 +5,11 @@ declare(strict_types=1); // nshro strict mode bash ntaakdo mn anwaa l-bayanat s7
 // **Mushkil d static mutable state**: l-khasiya $count hiya static w mutable (tqdr tbdl), w hada anti-pattern 7it kaysbb 3sar f l-unit tests w effets de bord. Lo bghiti tbdli $count f shi kayan, kl l-kayanat ghadi yshufu t-tbdil, w hada yqdr ysbab bugs s3b tshrihom.
 // **Solution**: badl static mutable state, nst3mlo services injectes (dependency injection) bash ntahkmo f l-7ala (state) b shkl anf w aslm, w nqllo mn l-effets de bord.
 
+
+// self:: kathd l-klas l-origin (zay Base f had l-mthal), 7ta lo st3mlti l-method mn klas warith. Hadi statik w matbdlsh.
+// static:: katakhod l-klas lli kayst3ml l-method (zay Child lo st3mlna mnnu). Hadi dinamik w katnst3ml LSB bash tkon mruna.
+
+
 class Counter {
     // static w private int, katkhzen 3dd l-kayanat li tnshew, msharka bin kl l-kayanat
     private static int $count = 0; // katbda b 0
