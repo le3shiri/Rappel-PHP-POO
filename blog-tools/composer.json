@@ -1,0 +1,7 @@
+{
+    "name": "solicode/cli-tools",
+    "description": "Scripts CLI pour le fil rouge (seed JSON Articles)",
+    "require": {
+        "php": "8.2"
+    }
+}

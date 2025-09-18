@@ -24,6 +24,7 @@ echo "=> Mthal 1: Qra l-awamer b-\$argv\n";
 echo "Salam " . ($argv[1] ?? 'Wld n-nas') . "\n";
 echo "3adad l-awamer (argc): $argc\n";
 
+
 // 3. Mthal 2: Qra l-khiyarat b-getopt
 // Mthal: php cli_basics.php -v --input=data.json --limit=3
 echo "\n=> Mthal 2: Qra l-khiyarat b-getopt\n";
