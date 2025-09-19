@@ -3,8 +3,6 @@
 declare(strict_types=1);
 
 /**
- * CLI Basics b-Darija Maghribia
- * Had s-sfiha tashmel ta3rifat w mthal dial l-kurs 3.0.7 (Scripts CLI, entrée/sortie)
  * Objectif: Tfhm kifash tsaweb scripts CLI b-PHP, tqra l-mdkhlat, tktb l-mkhrjat, w tdir exit codes.
  */
 
